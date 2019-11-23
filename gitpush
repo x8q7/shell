@@ -1,0 +1,11 @@
+#!/bin/bash
+cur_dateTime="`date +%Y-%m-%d,%H:%m`"
+branch=`git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3`
+git status
+echo "=============================================================================="
+git add .
+git commit -m "auto update $cur_dateTime"
+git pull origin $branch
+git push origin $branch
+echo "PUSH SUCCESS"
+exit 0
