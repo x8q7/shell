@@ -1,10 +1,12 @@
 #!/bin/bash
-cur_dateTime="`date +%Y-%m-%d,%H:%m`"
+cur_dateTime=$(date "+%Y-%m-%d %H:%M:%S")
 branch=`git symbolic-ref HEAD 2>/dev/null | cut -d"/" -f 3`
 git status
 echo "=============================================================================="
+echo "Please input commit infomation!"
+read commitInfo
 git add .
-git commit -m "auto update $cur_dateTime"
+git commit -m "auto update $cur_dateTime  : $commitInfo"
 git pull origin $branch
 git push origin $branch
 echo "PUSH SUCCESS"
