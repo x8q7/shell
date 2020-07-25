@@ -9,5 +9,6 @@ git add .
 git commit -m "auto update $cur_dateTime  : $commitInfo"
 git pull origin $branch
 git push origin $branch
-echo "PUSH SUCCESS"
+echo "=============================================================================="
+echo "push success!"
 exit 0
