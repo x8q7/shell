@@ -1,3 +1,4 @@
+echo "======================start======================="
 # copy bing picture
 file_count=$(ls -l ./bing_picture |grep "^-"|wc -l)
 cur_index=${file_count}
@@ -18,3 +19,4 @@ mv *.md ./markdown
 mv *.word ./office
 mv *.xlsx ./office
 mv *.csv ./office
+echo "======================end======================="
