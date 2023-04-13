@@ -1,0 +1,12 @@
+mkdir code
+mkdir download
+mkdir test
+cd download
+mkdir setup
+mkdir office
+mkdir pdf
+mkdir picture
+mkdir bing_picture
+mkdir zip
+mkdir video
+mkdir audio
