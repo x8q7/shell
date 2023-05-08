@@ -19,4 +19,6 @@ mv *.md ./markdown
 mv *.word ./office
 mv *.xlsx ./office
 mv *.csv ./office
+mv *.mp3 ./music
+mv *.mp4 ./video
 echo "======================end======================="
