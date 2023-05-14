@@ -8,8 +8,10 @@ do
     mv $i "./bing_picture/BingWallpaper(${cur_index}).jpg"
 done
 
-mv *.exe ./exe_msi/
-mv *.msi ./exe_msi/
+mv *.exe ./setup/
+mv *.msi ./setup/
+mv *.dmg ./setup/
+mv *.msi ./setup/
 mv *.jpg ./picture/
 mv *.webp ./picture/
 mv *.png ./picture/
@@ -21,4 +23,7 @@ mv *.xlsx ./office
 mv *.csv ./office
 mv *.mp3 ./music
 mv *.mp4 ./video
+mv *.azw* ./ebook/
+mv *.mobi ./ebook/
+mv *.epub ./ebook/
 echo "======================end======================="
