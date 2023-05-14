@@ -11,7 +11,7 @@ done
 mv *.exe ./setup/
 mv *.msi ./setup/
 mv *.dmg ./setup/
-mv *.msi ./setup/
+
 mv *.jpg ./picture/
 mv *.webp ./picture/
 mv *.png ./picture/
