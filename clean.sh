@@ -15,15 +15,25 @@ mv *.dmg ./setup/
 mv *.jpg ./picture/
 mv *.webp ./picture/
 mv *.png ./picture/
+
 mv *.zip ./zip/
+mv *.7z ./zip/
+
 mv *.pdf ./pdf/
 mv *.md ./markdown
+
 mv *.word ./office
 mv *.xlsx ./office
 mv *.csv ./office
+mv *.xls ./office
+mv *.ppt ./office
+
 mv *.mp3 ./music
 mv *.mp4 ./video
+
 mv *.azw* ./ebook/
 mv *.mobi ./ebook/
 mv *.epub ./ebook/
+
+
 echo "======================end======================="
