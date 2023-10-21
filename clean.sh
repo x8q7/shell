@@ -11,17 +11,24 @@ done
 mv *.exe ./setup/
 mv *.msi ./setup/
 mv *.dmg ./setup/
+mv *.app ./setup/
+mv *.pkg ./setup/
 
 mv *.jpg ./picture/
 mv *.webp ./picture/
 mv *.png ./picture/
+mv *.jpeg ./picture/
 
+mv *.log ./logs
+
+mv *.tar.* ./zip/
 mv *.zip ./zip/
 mv *.7z ./zip/
 
 mv *.pdf ./pdf/
 mv *.md ./markdown
 
+mv *.doc* ./office
 mv *.word ./office
 mv *.xlsx ./office
 mv *.csv ./office
@@ -35,5 +42,5 @@ mv *.azw* ./ebook/
 mv *.mobi ./ebook/
 mv *.epub ./ebook/
 
-
+mv *.json ./json/
 echo "======================end======================="
